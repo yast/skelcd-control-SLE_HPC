@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Mar  8 13:04:48 UTC 2018 - cgoll@suse.com
+
+- added some patterns which will be installed in order to fix
+  (bsc#1084504)
+
+-------------------------------------------------------------------
 Tue Sep 12 13:11:55 UTC 2017 - jreidinger@suse.com
 
 - initial package to allow installation of SLES4HPC on leanos

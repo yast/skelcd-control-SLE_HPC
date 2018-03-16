@@ -1,7 +1,7 @@
 #
 # spec file for package skelcd-control-SLES4HPC
 #
-# Copyright (c) 2016 SUSE LINUX GmbH, Nuernberg, Germany.
+# Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -15,28 +15,16 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
-
-######################################################################
-#
-# IMPORTANT: Please do not change the control file or this spec file
-#   in build service directly, use
-#   https://github.com/yast/skelcd-control-SLES4HPC4HPC repository
-#
-#   See https://github.com/yast/skelcd-control-SLES4HPC4HPC/blob/master/CONTRIBUTING.md
-#   for more details.
-#
-######################################################################
-
 Name:           skelcd-control-SLES4HPC
 # xsltproc for converting SLES control file to SLES-for-VMware
 BuildRequires:  libxslt-tools
 # xmllint (for validation)
 BuildRequires:  libxml2-tools
 # RNG validation schema
-BuildRequires: yast2-installation-control
+BuildRequires:  yast2-installation-control
 
 # original SLES control file
-BuildRequires: skelcd-control-SLES >= 15.0.0
+BuildRequires:  skelcd-control-SLES >= 15.0.0
 
 Provides:       system-installation() = SLES_HPC
 
@@ -46,12 +34,12 @@ Provides:       system-installation() = SLES_HPC
 Url:            https://github.com/yast/skelcd-control-SLES4HPC
 AutoReqProv:    off
 Version:        15.0.0
-Release:        0
+Release:        2
 Summary:        SLES4HPC control file needed for installation
 License:        MIT
 Group:          Metapackages
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
-Source0:        installation.SLES4HPC.xsl
+Source0:        installation.xml
 
 %description
 SLES4HPC control file needed for installation
@@ -59,8 +47,7 @@ SLES4HPC control file needed for installation
 %prep
 
 %build
-# transform ("patch") the original SLES installation file
-xsltproc %{SOURCE0} /installation.xml > installation.xml
+cp %{SOURCE0} .
 
 %check
 #
