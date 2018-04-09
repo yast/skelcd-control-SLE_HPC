@@ -33,13 +33,17 @@ Provides:       system-installation() = SLES_HPC
 
 Url:            https://github.com/yast/skelcd-control-SLES4HPC
 AutoReqProv:    off
-Version:        15.0.2
+Version:        15.0.3
 Release:        2
 Summary:        SLES4HPC control file needed for installation
 License:        MIT
 Group:          Metapackages
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source0:        installation.xml
+
+# SUSEConnect does not build for i586 and s390 and is not supported on those architectures
+# bsc#1088552
+ExcludeArch:    %ix86 s390
 
 %description
 SLES4HPC control file needed for installation
