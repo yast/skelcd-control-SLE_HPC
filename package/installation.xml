@@ -27,11 +27,11 @@ defined by a role can be overridden in the next steps if necessary.&lt;/p&gt;</l
         </roles_help>
         <minimal_role>
           <!-- TRANSLATORS: a label for a system role -->
-          <label>HPC Development node</label>
+          <label>HPC Login and Development Node</label>
         </minimal_role>
         <minimal_role_description>
-          <label>• include HPC enabled libraries
-• add development tools
+          <label>• Includes HPC-enabled libraries
+• Adds compilers and development toolchain
 </label>
         </minimal_role_description>
     </texts>
@@ -165,7 +165,7 @@ defined by a role can be overridden in the next steps if necessary.&lt;/p&gt;</l
                 <id>minimal_role</id>
                 <!-- nothing is overlaid for the normal role -->
 
-                <order config:type="integer">1000</order>
+                <order config:type="integer">2000</order>
                 <software>
                   <default_patterns>base hpc_compute_node hpc_libraries ofed hpc_development_node yast2_basis devel_basis</default_patterns>
                   <!-- the cdata trick produces an empty string in the data
