@@ -33,7 +33,7 @@ Provides:       system-installation() = SLES_HPC
 
 Url:            https://github.com/yast/skelcd-control-SLES4HPC
 AutoReqProv:    off
-Version:        15.0.3
+Version:        15.0.4
 Release:        2
 Summary:        SLES4HPC control file needed for installation
 License:        MIT
