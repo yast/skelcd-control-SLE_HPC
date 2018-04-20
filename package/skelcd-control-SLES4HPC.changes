@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Apr 19 19:26:42 UTC 2018 - cgoll@suse.com
+
+- added pattern x11 and gnome_basic as role is used on workstations
+  (bsc#1090283 )
+
+-------------------------------------------------------------------
 Fri Apr 13 09:58:31 UTC 2018 - cgoll@suse.com
 
 - Synced descriptions with FATE#323494 (bsc#1089392)
