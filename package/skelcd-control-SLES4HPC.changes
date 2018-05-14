@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Sat May 12 10:39:35 UTC 2018 - eich@suse.com
+
+- Add a separate system-installation() provides for SLE-HPC 12.
+  For this to work it requires a fix to YaST (bsc#1092965).
+
+-------------------------------------------------------------------
 Thu Apr 19 19:26:42 UTC 2018 - cgoll@suse.com
 
 - added pattern x11 and gnome_basic as role is used on workstations
