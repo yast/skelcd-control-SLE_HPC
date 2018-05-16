@@ -27,13 +27,15 @@ BuildRequires:  yast2-installation-control
 BuildRequires:  skelcd-control-SLES >= 15.0.0
 
 Provides:       system-installation() = SLES_HPC
+# For migrations from SLE-HPC 12
+Provides:       system-installation() = SLE-HPC
 
 #
 ######################################################################
 
 Url:            https://github.com/yast/skelcd-control-SLES4HPC
 AutoReqProv:    off
-Version:        15.0.5
+Version:        15.0.6
 Release:        3
 Summary:        SLES4HPC control file needed for installation
 License:        MIT
