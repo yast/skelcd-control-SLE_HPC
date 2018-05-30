@@ -1,5 +1,5 @@
 #
-# spec file for package skelcd-control-SLES4HPC
+# spec file for package skelcd-control-SLE_HPC
 #
 # Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
 #
@@ -15,7 +15,7 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
-Name:           skelcd-control-SLES4HPC
+Name:           skelcd-control-SLE_HPC
 # xsltproc for converting SLES control file to SLES-for-VMware
 BuildRequires:  libxslt-tools
 # xmllint (for validation)
@@ -26,18 +26,18 @@ BuildRequires:  yast2-installation-control
 # original SLES control file
 BuildRequires:  skelcd-control-SLES >= 15.0.0
 
-Provides:       system-installation() = SLES_HPC
+Provides:       system-installation() = SLE_HPC
 # For migrations from SLE-HPC 12
 Provides:       system-installation() = SLE-HPC
 
 #
 ######################################################################
 
-Url:            https://github.com/yast/skelcd-control-SLES4HPC
+Url:            https://github.com/yast/skelcd-control-SLE_HPC
 AutoReqProv:    off
-Version:        15.0.6
+Version:        15.0.7
 Release:        3
-Summary:        SLES4HPC control file needed for installation
+Summary:        SLE_HPC control file needed for installation
 License:        MIT
 Group:          Metapackages
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -48,7 +48,7 @@ Source0:        installation.xml
 ExcludeArch:    %ix86 s390
 
 %description
-SLES4HPC control file needed for installation
+SLE_HPC control file needed for installation
 
 %prep
 
