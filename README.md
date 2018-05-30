@@ -1,7 +1,7 @@
-skelcd-control-SLES4HPC
+skelcd-control-SLE_HPC
 ===================
 
-[![Travis Build](https://travis-ci.org/yast/skelcd-control-SLES4HPC.svg?branch=master)](https://travis-ci.org/yast/skelcd-control-SLES)
+[![Travis Build](https://travis-ci.org/yast/skelcd-control-SLE_HPC.svg?branch=master)](https://travis-ci.org/yast/skelcd-control-SLES)
 
 
 Installation control file for SUSE Linux Enterprise Server for HPC product. It is based on SLES
