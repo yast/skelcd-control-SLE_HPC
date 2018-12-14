@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Dec 11 16:56:07 UTC 2018 - dgonzalez@suse.com
+
+- Use FHS compliant path (fate#325482)
+- 15.1.0
+
+-------------------------------------------------------------------
 Thu Jun 14 11:20:03 UTC 2018 - cgoll@suse.com
 
 - added option disable_order to root-fs in order to fit on small
