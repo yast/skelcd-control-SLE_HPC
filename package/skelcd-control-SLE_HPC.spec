@@ -25,9 +25,6 @@ BuildRequires:  libxml2-tools
 # Added skelcd macros
 BuildRequires:  yast2-installation-control >= 4.1.5
 
-# original SLES control file
-BuildRequires:  skelcd-control-SLES >= 15.0.0
-
 # USe FHS compliant path
 Requires:       yast2 >= 4.1.41
 
@@ -40,7 +37,7 @@ Provides:       system-installation() = SLE-HPC
 
 Url:            https://github.com/yast/skelcd-control-SLE_HPC
 AutoReqProv:    off
-Version:        15.1.0
+Version:        15.2.0
 Release:        3
 Summary:        SLE_HPC control file needed for installation
 License:        MIT
