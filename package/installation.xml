@@ -36,6 +36,15 @@ defined by a role can be overridden in the next steps if necessary.&lt;/p&gt;</l
         </minimal_role_description>
     </texts>
 
+    <software>
+        <!-- the default preselected modules in offline installation -->
+        <default_modules config:type="list">
+            <default_module>sle-module-basesystem</default_module>
+            <default_module>sle-module-hpc</default_module>
+            <default_module>sle-module-python2</default_module>
+        </default_modules>
+    </software>
+
     <partitioning>
        <expert_partitioner_warning config:type="boolean">false</expert_partitioner_warning>
 
