@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Feb 26 13:04:31 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
+
+- Added default preselected modules in offline installation
+  (jsc#SLE-8040)
+- 15.2.2
+
+-------------------------------------------------------------------
 Thu Dec  5 08:21:35 UTC 2019 - Ladislav Slezák <lslezak@suse.cz>
 
 - Run the registration also on the Full medium (jsc#SLE-7214)
