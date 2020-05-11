@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon May 11 07:42:47 UTC 2020 - Steffen Winterfeldt <snwint@suse.com>
+
+- remove obsolete proposal_settings_editable (bsc#1171423)
+- 15.3.0
+
+-------------------------------------------------------------------
 Wed Feb 26 13:04:31 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Added default preselected modules in offline installation
