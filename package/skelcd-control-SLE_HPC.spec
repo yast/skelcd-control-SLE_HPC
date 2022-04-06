@@ -37,7 +37,7 @@ Provides:       system-installation() = SLE-HPC
 
 Url:            https://github.com/yast/skelcd-control-SLE_HPC
 AutoReqProv:    off
-Version:        15.4.1
+Version:        15.5.0
 Release:        3
 Summary:        SLE_HPC control file needed for installation
 License:        MIT
