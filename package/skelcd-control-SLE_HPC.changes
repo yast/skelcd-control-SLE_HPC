@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Jun  1 14:58:44 UTC 2023 - Ladislav Slezák <lslezak@suse.com>
+
+- When installing from the Full installation medium preselect the
+  same modules as installation from the Online medium (bsc#1211278)
+- 15.6.1
+
+-------------------------------------------------------------------
 Fri Mar 03 14:44:07 UTC 2023 - Ladislav Slezák <lslezak@suse.cz>
 
 - Bump version to 15.6.0 (bsc#1208913)
